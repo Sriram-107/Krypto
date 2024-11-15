@@ -1,0 +1,44 @@
+.discover-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.content > h1 {
+  width: 32.8rem;
+  font-family: Outfit;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5rem;
+  text-align: left;
+  color: white;
+  float: left;
+}
+.description {
+  color: white;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.content > p {
+  width: 23.8rem;
+
+  line-height: 1.8rem;
+  text-align: left;
+}
+
+#pc {
+  float: right;
+  height: 31rem;
+  width: 31rem;
+}
+.btn-container {
+  display: flex;
+  gap: 2rem;
+}

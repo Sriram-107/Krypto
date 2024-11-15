@@ -1,0 +1,60 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 5% 0%;
+  margin-top: 5rem;
+}
+
+.flex-item {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.flex-item > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.flex-item > ul > li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.title {
+  padding-bottom: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.mail-input {
+  width: 100%;
+  background: #13124f;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+
+#email {
+  border: none;
+  padding: 10px 0px;
+  background: #13124f;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+
+.btn {
+  background: #8f8fdb;
+  color: white;
+  border: none;
+  width: 125px;
+  height: 40px;
+  border-radius: 35px;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
